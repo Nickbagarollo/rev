@@ -1,54 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Institucional</title>
-    <link rel="stylesheet" href="style.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Site Institucional</title>
+     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-      <nav>
-         <a class="nav-item" href="../Home/index.html">
-             <img class="nav-icon" src="../assets/icons/home.png" alt="">
-             <p>Home</p>
-        </a>
+     <nav>
+          <a class="nav-item" href="../Home">
+               <img class="nav-icon" src="../assets/icons/home.png" alt="">
+               <p>Home</p>
+          </a>
 
-        <a class="nav-item" href="../Home/index.html">
-             <img class="nav-icon" src="../assets/icons/home.png" alt="">
-             <p>Instituição</p>
-        </a>
+          <a class="nav-item" href="../instituição/">
+               <img class="nav-icon" src="../assets/icons/home.png" alt="">
+               <p>Instituição</p>
+          </a>
 
-        <a class="nav-item" href="../Home/index.html">
-             <img class="nav-icon" src="../assets/icons/home.png" alt="">
-             <p>Produtos</p>
-        </a>
+          <a class="nav-item" href="../produtos/">
+               <img class="nav-icon" src="../assets/icons/home.png" alt="">
+               <p>Produtos</p>
+          </a>
 
-        <a class="nav-item" href="../Home/index.html">
-             <img class="nav-icon" src="../assets/icons/home.png" alt="">
-             <p>Contato</p>
-        </a>
-  </nav>
+          <a class="nav-item" href="../contato/">
+               <img class="nav-icon" src="../assets/icons/home.png" alt="">
+               <p>Contato</p>
+          </a>
+     </nav>
 
-  <div id="wrap-open" class="wrap-open" onclick="openMenu()"> 
-     <img src="../assets/icons/menu-hamburguer.png" alt="menu">
-  </div>
+     <div id="wrap-open" class="wrap-open" onclick="openMenu()">
+          <img src="../assets/icons/cardapio.png" alt="menu">
+     </div>
 
-  <div id="menu-mobile">
-     <img onclick="fechar()" src="../assets/icons/botao-fechar.png" alt="">
-     <a href="">Home</a>
-     <a href="">Instituição</a>
-     <a href="">Produtos</a>
-     <a href="">Contato</a>
-  </div>
+     <div id="menu-mobile">
+          <img onclick="fechar()" src="../assets/icons/botao-excluir.png" alt="">
+          <a href="../Home/">Home</a>
+          <a href="../instituição/">Instituição</a>
+          <a href="../produtos/">Produtos</a>
+          <a href="../contato/">Contato</a>
+     </div>
 
-  <section class="s1">
+     <section class="s1">
+          <div class="wrap-divs">
+               <div class="tittle-div">
+                    <h1> Pagina do nick</h1>
+               </div>
+               <div class="wrap-btns">
+                    <button onclick="irParaContato()"> Contato </button>
+                    <button onclick="irParaBaixo()"> Pra baixo</button>
+               </div>
+          </div>
 
-  </section>
+     </section>
 
-  <section class="s2">
-     
-  </section>
+     <section class="s2">
+          <div class="card">
+               <div>
+                    <img src="../assets/images/card01.jpg" alt="wrap-img">
+               </div>
+               <div>
+                    <h3>Fernando de noronha</h3>
+               </div>
+               <div>
+                    <p>As pessoas vão a Fernando de Noronha em busca de suas belezas naturais preservadas, que incluem
+                         praias de águas cristalinas,
+                         rica biodiversidade marinha e paisagens vulcânicas únicas.</p>
+               </div>
+          </div>
 
-   <script src="script.js"></script>
+
+          <div class="card">
+               <div>
+                    <img width="400px" src="../assets/images/card02.jpg" alt="">
+               </div>
+               <div>
+                    <h3>Veneza</h3>
+               </div>
+               <div>
+                    <p>As pessoas vão a Veneza principalmente para conhecer sua arquitetura única construída sobre a
+                         água,
+                         navegar por seus canais históricos e explorar séculos de arte e história sem a presença de
+                         carros.</p>
+               </div>
+
+          </div>
+
+
+          <div class="card">
+               <div>
+                    <img width="400px" src="../assets/images/card03.jpg" alt="">
+               </div>
+               <div>
+                    <h3>Salar de Uyuni</h3>
+               </div>
+               <div>
+                    <p>Um deserto de sal conhecido principalmente pelo o fenômeno do espelho natural: Na época das chuvas (geralmente entre janeiro e março), 
+                         uma fina camada de água cobre o chão de sal e reflete perfeitamente o céu, as nuvens e as estrelas.</p>
+               </div>
+
+          </div>
+
+     </section>
+
+     <script src="script.js"></script>
 </body>
+
 </html>
