@@ -19,6 +19,6 @@ function irParaBaixo(){
     })
 }
 
-function irParaContato(){
-    window.location.href = "../Contato"
+function irParaLinks(){
+    window.location.href = "../Links"
 }
